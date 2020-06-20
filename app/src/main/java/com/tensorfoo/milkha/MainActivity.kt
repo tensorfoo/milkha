@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val drawFcuk = initCanvas(imageView, resources)
+        val canvasWidget = initCanvas(imageView, resources)
         supportActionBar?.hide()
         val uri = intent.data
         if (uri != null) {
@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
             initSplitSpinner(trackPoints, this, splitSpinner, splitsTable)
             initButton(timeButton, trackPoints, TimeActivity::class.java)
             initButton(distButton, trackPoints, DistActivity::class.java)
-            presentData(drawFcuk, trackPoints)
+            presentData(canvasWidget, trackPoints)
         }
         else
         {

@@ -9,7 +9,6 @@ import java.time.temporal.Temporal
 
 data class TrackPoint(val lat:Double, val lon:Double, val time: Temporal, val HR:Int, var dist:Double) :Serializable
 
-    // distance between two trackpoints using Haversine formula:
     fun dist(p1: TrackPoint, p2: TrackPoint): Double {
         return dist(p1.lat, p1.lon, p2.lat, p2.lon)
     }
