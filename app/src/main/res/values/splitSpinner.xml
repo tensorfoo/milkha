@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="distSpinnerArray">
+        <item>1000m splits</item>
+        <item>750m splits</item>
+        <item>500m splits</item>
+        <item>250m splits</item>
+        <item>200m splits</item>
+        <item>150m splits</item>
+        <item>100m splits</item>
+        <item>50m splits</item>
+    </string-array>
+
+    <string-array name="timeSpinnerArray">
+        <item>00:30 splits</item>
+        <item>00:60 splits</item>
+        <item>01:30 splits</item>
+        <item>02:00 splits</item>
+        <item>02:30 splits</item>
+        <item>03:00 splits</item>
+        <item>05:00 splits</item>
+        <item>06:00 splits</item>
+        <item>10:00 splits</item>
+        <item>15:00 splits</item>
+        <item>20:00 splits</item>
+        <item>25:00 splits</item>
+        <item>30:00 splits</item>
+        <item>35:00 splits</item>
+        <item>40:00 splits</item>
+        <item>45:00 splits</item>
+        <item>60:00 splits</item>
+    </string-array>
+</resources>
